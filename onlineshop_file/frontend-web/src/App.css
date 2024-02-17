@@ -1,0 +1,26 @@
+.App nav {
+  display: flex;
+}
+
+.App nav ul {
+  list-style: none;
+  padding: 10px;
+
+  display: flex; /* Các thẻ <ul> con sử dụng Flexbox */
+}
+
+.App nav li {
+  margin-right: 30px; /* Khoảng cách giữa các thẻ menu */
+}
+
+.App nav a {
+  text-decoration: none;
+  color: #000; /* Màu chữ */
+  padding: 8px 16px; /* Kích thước của mỗi thẻ menu */
+  font-size: 30px;
+  display: flex; /* Cho phép các thẻ <a> sử dụng Flexbox */
+  align-items: center; /* Căn giữa theo chiều dọc */
+}
+.App nav a:hover {
+  color: rgb(134, 39, 39);
+}
